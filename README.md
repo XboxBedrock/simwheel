@@ -1,16 +1,15 @@
 # Custom Simracing FFB Wheel
----
 
 Hi! This is a custom-made Force Feedback Simracing steering wheel, made to somewhat resemble the 2019 Mercedes AMG F1 steering wheel, although not a direct replica. It is made using a hoverboard motor to save costs, and has a screen on the controller for the true F1 experience. For those who may not know what Force Feedback is, it's the usage of a motor to resist the motion of the player, to more closely mimic racecar steering, as the steering column in a racecar offers significant resistance to the driver. Generally this results in higher steering accuracy as humans are very good at gauging pressure accurately compared to distance, so resistance from a wheel helps with that. The wheel itself has a lot of buttons, as does every F1 steering wheel, to allow the driver to enable functions like pit lane steering limiter, etc. I am using keyswitches for a nice shifter experience, and a rotary encoder clutch pedal.
 
 The premade setups you can get at this pricepoint do not offer the same selection of button and screen, and are lacking in torque (Often 2-3 Nm), so that made me want to make a much more capable wheel. There is significant complexity as the hub, wheel, and quickconnect all have to be designed. Overall I am a simracing fan and have always wanted to have a setup like this, but have been outpriced by the $700+ market rates, and figured this could be a great way to use my cad and pcb experience.
 
 ## Software
----
+
 I intend to use a mix of the OpenFFBoard project's software (https://github.com/Ultrawipf/OpenFFBoard) and a small custom serial interface for the buttons and clutch pedal. As such this means you will plug in two USB cables to the computer, one for the wheel control and one for the buttons and clutch and display controller.
 
 ## Wiring Diagram
----
+
 
 ![Wiring](./drawings/wiring.svg)
 
@@ -20,7 +19,7 @@ As to not spam this upper section with images, please check the [pcb images sect
 
 
 ## CAD
----
+
 All of the CAD was done in fusion 360, and while I *could* export my whole workspace, for the sake of sanity I uploaded the full assembly and just the wheel as two seperate files, the full assembly containing the wheel. Credit to GrabCAD for providing the models for some standard COTS parts (EG. ESP32, Power Supply, Magnetic Encoder Board, etc.).
 
 ![full cad](./images/cadshowcase/fullcad.png)
@@ -28,7 +27,7 @@ All of the CAD was done in fusion 360, and while I *could* export my whole works
 
 
 ## BOM
----
+
 
 |Name                                                                |Price |Qty  |Expenditure|FIELD5|Link                                                                                                                                             |Notes:                                                |
 |--------------------------------------------------------------------|------|-----|-----------|------|-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
@@ -66,7 +65,7 @@ All of the CAD was done in fusion 360, and while I *could* export my whole works
 
 
 ## PCB Images
----
+
 **Top Lights PCB**
 ![Schem](./images/pcb/topstrip_schem.png) 
 ![PCB](./images/pcb/topstrip_pcb.png)
